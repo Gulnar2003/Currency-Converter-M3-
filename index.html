@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="M3/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <img src="M3/Image/Asset 1@3x 1.png" alt="">
+                <ul class="menu">
+                    <li class="bank">БАНК</li>
+                    <li> БИЗНЕС </li>
+                    <li> ИНВЕСТИЦИИ </li>
+                    <li> СТРАХОВАНИЕ </li>
+                    <li> МОБАЙЛ </li>
+                    <li> ПУТЕШЕСТВИЯ </li>
+                    <li> РАЗВЛЕЧЕНИЯ </li>
+                    <li><span><b>ВОЙТИ</b></span></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <h1>Конвертер валют онлайн</h1>
+    <p class="text1">У меня есть </p>
+    <p>Хочу приобрести</p>
+    <div class="table">
+        <div>
+            <div id="fromCurrency" class="currency">
+                <button id="RUB" class="from selected">RUB</button>
+                <button id="USD" class="from">USD</button>
+                <button id="EUR" class="from">EUR</button>
+                <button id="GBP" class="from">GBP</button>
+            </div>
+            <div class="area1">
+                <input type="number" value="1" class="amount1">
+                <p class="currencyFrom"></p>
+                
+            </div>
+        </div>
+        <div>
+        <div id="toCurrency" class="currency2">
+            <button id="RUB" class="to">RUB</button>
+            <button id="USD" class="to selected">USD</button>
+            <button id="EUR" class="to">EUR</button>
+            <button id="GBP" class="to">GBP</button>
+        </div>
+            <div class="area2">
+                <input type="number" class="amount2">
+                <p class="currencyTo"></p>
+            </div>
+        </div>
+    </div>
+    <script src="M3/script.js"></script>
+</body>
+
+</html>
